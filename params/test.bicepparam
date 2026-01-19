@@ -8,11 +8,11 @@ param vnet = {
   addressPrefixes:['10.0.0.0/16','172.16.0.0/16']
   subnets:[
     {
-      subnetName: 'snet-test-eus-web'
+      subnetName: 'subnet-1'
       subnetPrefix: '10.0.1.0/24'
     }
     {
-      subnetName: 'snet-test-eus-db'
+      subnetName: 'subnet-2'
       subnetPrefix: '10.0.2.0/24'
     }
   ]
